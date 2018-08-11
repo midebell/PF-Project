@@ -1,0 +1,10 @@
+#cloud-config
+
+packages:
+  - nginx
+
+package-update: true
+
+bootcmd:
+ - systemctl restart nginx
+ - [ cloud-init-per, once, curl, -vL, localhost ]
