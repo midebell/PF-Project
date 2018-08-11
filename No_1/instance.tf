@@ -15,7 +15,7 @@ resource "aws_instance" "us_server" {
   vpc_security_group_ids = ["${aws_security_group.aws_sg_ec2.id}"]
 
   # the public SSH key
-  //key_name = "${aws_key_pair.pfkeypair.key_name}"
+  key_name = "${aws_key_pair.pfkeypair.key_name}"
 
   # the root block device
 
