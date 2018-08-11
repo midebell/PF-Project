@@ -10,9 +10,9 @@ resource "aws_security_group" "aws_sg_ec2" {
   }
 
   ingress {
-      from_port = 0
-      to_port = 0
-      protocol = "-1"
+      from_port = 22
+      to_port = 22
+      protocol = "tcp"
       cidr_blocks = ["0.0.0.0/0"] 
       # use ip address here, allowing ssh from the world is not safe.
   } 
