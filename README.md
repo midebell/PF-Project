@@ -17,37 +17,35 @@ Folder named No_1 contains solution. Edit file terraform.tfvars with your AWS ke
 a)	AWS_ACCESS_KEY = "YOUR KEY HERE"
 b)	AWS_SECRET_KEY = "YOUR KEY HERE"
 c)	Generate key pair by running:
-		ssh-keygen -f pfkey
+	ssh-keygen -f pfkey
 d)	Run terraform init
 e)	Run terraform apply
-
-Required No 2:	
+# Required No 2:	
 Folder named No_2 contains solution. 
 a)	Please edit file terraform.tfvars with your AWS keys:
 	AWS_ACCESS_KEY = "YOUR KEY HERE"
-AWS_SECRET_KEY = "YOUR KEY HERE"
+        AWS_SECRET_KEY = "YOUR KEY HERE"
 b)	Generate key pair by running:
 	ssh-keygen -f pfkey
 c)	Run docker build
 d)	Run docker plan init
 e)	Run docker plan apply
-
-Required No 3:	
+# Required No 3:	
 Folder named No_1 contains solution. Edit file terraform.tfvars with your AWS keys
 a)	AWS_ACCESS_KEY = "YOUR KEY HERE"
 b)	AWS_SECRET_KEY = "YOUR KEY HERE"
 c)	Generate key pair by running:
-		ssh-keygen -f pfkey
+	ssh-keygen -f pfkey
 d)	Run terraform init
 e)	Run terraform apply
-Bonus:	
+# Bonus:	
 1.	Run a job in Jenkins using Jenkinsfile to automate running Terraform.
 2.	Auto-scaling was added with configuration. To run :
 a)	Edit file terraform.tfvars with your AWS keys
 b)	AWS_ACCESS_KEY = "YOUR KEY HERE"
 c)	AWS_SECRET_KEY = "YOUR KEY HERE"
 d)	Generate key pair by running:
-		ssh-keygen -f pfkey
+	ssh-keygen -f pfkey
 e)	Run terraform init
 f)	Run terraform apply
 3.	Cloudformation config was added to serve as backend. “S3_Bucket.template”
